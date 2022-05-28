@@ -1,5 +1,8 @@
 import "./App.css";
 
+import WhitePrice from "./components/WhitePrice/WhitePrice";
+import MainPrice from "./components/MainPrice/MainPrice";
+
 function App() {
   return (
     <div className="App">
@@ -12,7 +15,8 @@ function App() {
         </label>
         <p>Monthly</p>
       </div>
-      <p>component goes here</p>
+      <WhitePrice />
+      <MainPrice />
     </div>
   );
 }

@@ -1,0 +1,44 @@
+{
+  "product": {
+    "monthly": {
+      "basic": {
+        "price": "19.99",
+        "storage": "500 GB",
+        "users": "2 Users",
+        "bandwidth": "3 GB"
+      },
+      "professional": {
+        "price": "24.99",
+        "storage": "1 TB",
+        "users": "5 Users",
+        "bandwidth": "10 GB"
+      },
+      "master": {
+        "price": "39.99",
+        "storage": "2 TB",
+        "users": "10 Users",
+        "bandwidth": "20 GB"
+      }
+    },
+    "annually": {
+      "basic": {
+        "price": "35.99",
+        "storage": "6 TB",
+        "users": "2 Users",
+        "bandwidth": "3.5 GB / Month"
+      },
+      "professional": {
+        "price": "45.99",
+        "storage": "12 TB",
+        "users": "5 Users",
+        "bandwidth": "10.5 GB / Month"
+      },
+      "master": {
+        "price": "75.99",
+        "storage": "24 TB",
+        "users": "10 Users",
+        "bandwidth": "20.5 GB / Month"
+      }
+    }
+  }
+}

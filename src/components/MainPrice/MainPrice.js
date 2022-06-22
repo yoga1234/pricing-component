@@ -4,7 +4,7 @@ import "./MainPrice";
 
 const MainPrice = () => {
   return (
-    <div className="white-container">
+    <div className="main-container">
       <h2 className="card-title">Basic</h2>
       <p className="card-price">$ 19.99</p>
       <hr />

@@ -15,8 +15,11 @@ function App() {
         </label>
         <p>Monthly</p>
       </div>
-      <WhitePrice />
-      <MainPrice />
+      <div className="card-container">
+        <WhitePrice />
+        <MainPrice />
+        <WhitePrice />
+      </div>
     </div>
   );
 }

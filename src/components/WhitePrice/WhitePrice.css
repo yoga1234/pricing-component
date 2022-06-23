@@ -40,15 +40,25 @@ hr.button-border {
   margin: auto;
 }
 .card-button {
+  font-family: var(--font-main);
   font-size: 12px;
   display: block;
   width: 80%;
   height: 40px;
   margin: 15px auto 0 auto;
-  background-color: #fff;
-  border: 1px solid #7976bc;
   border-radius: 5px;
-  color: #7976bc;
+  color: #fff;
   font-weight: bold;
   letter-spacing: 0.75px;
+  background-image: linear-gradient(
+    to right,
+    hsl(236, 72%, 79%),
+    hsl(237, 63%, 64%)
+  );
+  border: none;
+}
+.card-button:hover {
+  cursor: pointer;
+  background-image: #fff;
+  border: 1px solid #7976bc;
 }

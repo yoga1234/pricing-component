@@ -67,3 +67,8 @@
   color: #fff;
   background-image: none;
 }
+@media only screen and (max-width: 767px) {
+  .main-container {
+    margin-top: 0;
+  }
+}

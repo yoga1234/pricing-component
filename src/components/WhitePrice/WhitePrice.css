@@ -70,3 +70,10 @@
   background-image: none;
   color: #7976bc;
 }
+@media only screen and (max-width: 767px) {
+  .white-container {
+    width: 275px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}

@@ -1,14 +1,20 @@
 .main-container {
-  width: 250px;
+  z-index: 2;
+  position: relative;
+  width: 275px;
   border-radius: 10px;
-  background-color: white;
+  background-color: #7976bc;
   font-family: var(--font-main);
-  padding-top: 20px;
-  padding-bottom: 15px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-top: -20px;
+  -webkit-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.25);
 }
 .main-container .card-title {
   font-size: 18px;
-  color: var(--grayish-blue);
+  color: #fff;
   font-weight: bold;
   text-align: center;
 }
@@ -17,7 +23,7 @@
   font-weight: bold;
   margin-top: 10px;
   margin-bottom: 10px;
-  color: hsl(232, 13%, 33%);
+  color: #fff;
   text-align: center;
 }
 .main-container .card-price span {
@@ -31,7 +37,7 @@
   margin: auto;
   padding-top: 15px;
   padding-bottom: 15px;
-  color: var(--grayish-blue);
+  color: #fff;
   border-top: 2px solid rgba(179, 181, 197, 0.2);
 }
 hr.button-border {
@@ -47,18 +53,14 @@ hr.button-border {
   height: 40px;
   margin: 15px auto 0 auto;
   border-radius: 5px;
-  color: #fff;
+  color: #7976bc;
   font-weight: bold;
   letter-spacing: 0.75px;
-  background-image: linear-gradient(
-    to right,
-    hsl(236, 72%, 79%),
-    hsl(237, 63%, 64%)
-  );
+  background-color: #fff;
   border: none;
 }
 .main-container .card-button:hover {
   cursor: pointer;
-  background-image: #fff;
+  background-color: #fff;
   border: 1px solid #7976bc;
 }

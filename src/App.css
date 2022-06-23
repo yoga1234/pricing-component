@@ -93,3 +93,9 @@ input:checked + .slider:before {
   justify-content: center;
   margin-top: 50px;
 }
+.card-container .white-container:nth-child(1) {
+  border-radius: 10px 0px 0px 10px;
+}
+.card-container .white-container:nth-child(3) {
+  border-radius: 0px 10px 10px 0px;
+}

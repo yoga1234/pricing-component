@@ -40,7 +40,7 @@
   color: #fff;
   border-top: 2px solid rgba(179, 181, 197, 0.2);
 }
-hr.button-border {
+.main-container hr.button-border {
   border: 1px solid rgba(179, 181, 197, 0.2);
   width: 90%;
   margin: auto;
@@ -58,9 +58,12 @@ hr.button-border {
   letter-spacing: 0.75px;
   background-color: #fff;
   border: none;
+  transition: all 0.2s ease;
 }
 .main-container .card-button:hover {
   cursor: pointer;
-  background-color: #fff;
-  border: 1px solid #7976bc;
+  background-color: #7976bc;
+  border: 1px solid #fff;
+  color: #fff;
+  background-image: none;
 }

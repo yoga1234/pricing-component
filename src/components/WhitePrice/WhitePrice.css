@@ -61,9 +61,12 @@
     hsl(237, 63%, 64%)
   );
   border: none;
+  transition: all 0.2s ease;
 }
 .white-container .card-button:hover {
   cursor: pointer;
-  background-image: #fff;
+  background-color: #fff;
   border: 1px solid #7976bc;
+  background-image: none;
+  color: #7976bc;
 }

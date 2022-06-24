@@ -9,7 +9,7 @@ import MainPrice from "./components/MainPrice/MainPrice";
 class App extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { annually: false };
+    this.state = { annually: false, activeData: false };
   }
 
   checkHandle = (e) => {

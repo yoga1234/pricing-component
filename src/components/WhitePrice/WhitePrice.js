@@ -5,15 +5,15 @@ import "./WhitePrice.css";
 const WhitePrice = () => {
   return (
     <div className="white-container">
-      <h2 className="card-title">Basic</h2>
+      <h2 className="card-title">Loading...</h2>
       <p className="card-price">
-        <span className="dollar-sign">$</span> 19.99
+        <span className="dollar-sign">$</span> Loading...
       </p>
-      <p className="card-feature">500 GB Storage</p>
-      <p className="card-feature">2 Users Allowed</p>
-      <p className="card-feature">Send up to 3 GB</p>
+      <p className="card-feature">Loading...</p>
+      <p className="card-feature">Loading...</p>
+      <p className="card-feature">Loading...</p>
       <hr className="button-border" />
-      <button className="card-button">LEARN MORE</button>
+      <button className="card-button">Loading...</button>
     </div>
   );
 };

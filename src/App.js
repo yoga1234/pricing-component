@@ -43,9 +43,25 @@ class App extends React.Component {
           <p>Monthly</p>
         </div>
         <div className="card-container">
-          <WhitePrice />
-          <MainPrice />
-          <WhitePrice />
+          <WhitePrice
+            basic={
+              this.state.product === undefined
+                ? "undefined"
+                : this.state.annually === false
+                ? this.state.product.monthly.basic
+                : this.state.product.annually.basic
+            }
+          />
+          <MainPrice professional={"test"} />
+          <WhitePrice
+            master={
+              this.state.product === undefined
+                ? "undefined"
+                : this.state.annually === false
+                ? this.state.product.monthly.master
+                : this.state.product.annually.master
+            }
+          />
         </div>
       </div>
     );

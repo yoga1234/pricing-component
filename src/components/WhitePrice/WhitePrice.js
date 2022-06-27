@@ -11,7 +11,6 @@ const WhitePrice = (data) => {
   } else {
     dataTemp = undefined;
   }
-  console.log(dataTemp);
   if (data === "undefined" && dataTemp === undefined) {
     return (
       <div className="white-container">
@@ -37,7 +36,9 @@ const WhitePrice = (data) => {
         <p className="card-feature">{dataTemp.users} Allowed</p>
         <p className="card-feature">Send up to {dataTemp.bandwidth}</p>
         <hr className="button-border" />
-        <button className="card-button">Loading...</button>
+        <button className="card-button">
+          {dataTemp.name ? "LEARN MORE" : "Loading..."}
+        </button>
       </div>
     );
   }

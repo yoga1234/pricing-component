@@ -14,7 +14,6 @@ class App extends React.Component {
 
   checkHandle = (e) => {
     this.setState({ annually: e.target.checked });
-    console.log(data.product.monthly);
   };
 
   componentDidMount() {
@@ -52,7 +51,15 @@ class App extends React.Component {
                 : this.state.product.annually.basic
             }
           />
-          <MainPrice professional={"test"} />
+          <MainPrice
+            professional={
+              this.state.product === undefined
+                ? "undefined"
+                : this.state.annually === false
+                ? this.state.product.monthly.professional
+                : this.state.product.annually.professional
+            }
+          />
           <WhitePrice
             master={
               this.state.product === undefined
